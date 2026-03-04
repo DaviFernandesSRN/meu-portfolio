@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    paddding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+
+}
+
+.destaque-titulo {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+.apresentacao-texto{
+    width:615px;
+    height: ;
+}
+
+.apresentacao-texto-titulo{
+font-size: 36px;
+font-family: "Krona One", sans-serif;
+
+}
+
+.apresentacao-texto-paragrafo{
+    font-size: 24px;  
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao-texto-links{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.apresentacao-links{
+    background-color: #22D4FD;
+    width: 280px;
+    height: 79px;
+    border-radius: 16px;
+    font-size: 24px; /* Tamanho ajustado para o layout */
+    font-family: "Krona One", sans-serif;
+    color: black;
+    text-decoration: none;}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; /* Corrigido de 'paddding' */
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    color: #f6f6f6;
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo na tela */
+}
+
+.destaque-titulo {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%; /* Ajustado para não colidir com o topo/base */
+    gap: 40px;
+}
+
+.apresentacao-texto {
+    width: 615px;
+}
+
+.apresentacao-texto-titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 24px;
+}
+
+.apresentacao-texto-paragrafo {
+    font-size: 24px;  
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 32px;
+}
+
+.apresentacao-texto-links {
+    display: flex;
+    justify-content: flex-start; /* Alinha os botões à esquerda */
+    gap: 16px; /* Espaço exato entre os dois botões */
+}
+
+.apresentacao-links {
+    background-color: #22D4FD;
+    width: 250px; /* Reduzi o tamanho para ficar proporcional */
+    height: 60px; /* Reduzi a altura para não ficar "gordo" */
+    border-radius: 8px; /* Cantos um pouco mais sutis como no exemplo */
+    font-size: 18px; /* Texto menor para caber melhor */
+    font-family: "Montserrat", sans-serif; /* Montserrat fica mais legível em botões */
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+
+    /* Centralização perfeita do texto: */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    transition: 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+.apresentacao-links:hover {
+    background-color: #1baecf; /* Muda levemente a cor ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Ajuste da imagem para não esticar */
+.apresentacao img {
+    max-width: 50%;
+    border-radius: 8px;
+}
